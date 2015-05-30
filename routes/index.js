@@ -49,12 +49,7 @@ router.post('/addpost', function(req, res) {
   });
 });
 
-// Demo stuff. Remove later
-
-/* GET Hello World page. */
-router.get('/helloworld', function(req, res) {
-  res.render('helloworld', { title: 'Hello, World!' })
-});
+// Tutorial-based user stuff.
 
 /* GET Userlist page. */
 router.get('/userlist', function(req, res) {
