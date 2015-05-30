@@ -1,4 +1,4 @@
-nerdgrass
+# Nerdgrass Revival
 =========
 
-A personal blog built with Gulp
+A personal blog built with Express, Sass, & ZURB Foundation
