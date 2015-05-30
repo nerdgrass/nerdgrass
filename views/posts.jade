@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1.
+    Posts List
+  ul
+    each post, i in postlist
+      li
+        h3= post.title
+        p= post.content
