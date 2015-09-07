@@ -1,6 +1,9 @@
-(ns nerdgrass.core)
+(ns nerdgrass.core
+  (:require [compojure.core :refer [defroutes GET]]
+            [ring.adapter.jetty :as ring]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defroutes routes
+  (GET "/" [] "<h2>Hello World</h2>"))
+
+(defn -main []
+  (ring/run-jetty #'routes {:port 8080 :join? false}))
