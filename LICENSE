@@ -1,3 +1,4 @@
+
 GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
 
@@ -339,6 +340,8 @@ library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.
 
 =======
+=======
+>>>>>>> origin/clojure-blog-2
 THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC
 LICENSE ("AGREEMENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM
 CONSTITUTES RECIPIENT'S ACCEPTANCE OF THIS AGREEMENT.
