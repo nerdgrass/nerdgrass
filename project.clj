@@ -5,7 +5,9 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [compojure "1.3.1"]
                  [ring/ring-defaults "0.1.2"]
-                 [de.ubercode.clostache/clostache "1.3.1"]]
+                 [org.clojure/java.jdbc "0.4.1"]
+                 [de.ubercode.clostache/clostache "1.3.1"]
+                 [org.postgresql/postgresql "9.4-1201-jdbc41"]]
   :plugins [[lein-ring "0.8.13"]]
   :ring {:handler nerdgrass.handler/app}
   :profiles
