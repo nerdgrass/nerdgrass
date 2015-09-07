@@ -16,4 +16,4 @@
 
 (defroutes routes
   (GET  "/" [] (index))
-  (POST "/" [shout] (create post)))
+  (POST "/" [post] (create post)))
